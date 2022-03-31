@@ -42,11 +42,11 @@ public class MyBranchingTest {
 
             Assertions.assertTrue(resultMaxInt == 0);
 
-        } // if
+        }
 
         System.out.println("");
 
-    } // public void maxInt_Test1()
+    }
 
     @Test
     public void maxInt_Test2() {
@@ -69,11 +69,11 @@ public class MyBranchingTest {
 
             Assertions.assertTrue(resultMaxInt == 2);
 
-        } // if
+        }
 
         System.out.println("");
 
-    } // public void maxInt_Test2()
+    }
 
 
     /**
@@ -104,11 +104,11 @@ public class MyBranchingTest {
 
             Assertions.assertTrue(resultIfElseExample == true);
 
-        } // if
+        }
 
         System.out.println("");
 
-    } // public void ifElseExample_Test1()
+    }
 
     @Test
     public void ifElseExample_Test2() {
@@ -131,11 +131,11 @@ public class MyBranchingTest {
 
             Assertions.assertFalse(resultIfElseExample == true);
 
-        } // if
+        }
 
         System.out.println("");
 
-    } // public void ifElseExample_Test2()
+    }
 
 
     /**
@@ -160,7 +160,7 @@ public class MyBranchingTest {
 
         myBranching_Obj.switchExample(0);
 
-    } // public void switchExample_Test1()
+    }
 
     @Test
     public void switchExample_Test2() {
@@ -173,7 +173,7 @@ public class MyBranchingTest {
 
         myBranching_Obj.switchExample(1);
 
-    } // public void switchExample_Test2()
+    }
 
     @Test
     public void switchExample_Test3() {
@@ -186,7 +186,7 @@ public class MyBranchingTest {
 
         myBranching_Obj.switchExample(2);
 
-    } // public void switchExample_Test3()
+    }
 
 
-} // public class MyBranchingTest
+}
