@@ -8,7 +8,7 @@ public class MyCycles
 
     public static void main(String[] args) {
 
-    } // public static void main(String[] args)
+    }
 
     public MyCycles(Utils utils)
     {
@@ -42,11 +42,11 @@ public class MyCycles
 
                 System.out.println("Результат cycleForExample=false");
 
-            } // if
+            }
 
-        } // for
+        }
 
-    } // public void cycleForExample(int iterations, String str)
+    }
 
     /**
      * Необходимо написать реализацию метода с использованием while()
@@ -80,13 +80,13 @@ public class MyCycles
 
                 System.out.println("Результат cycleWhileExample=false");
 
-            } // if
+            }
 
             countCycleWhile++;
 
-        } // while
+        }
 
-    } // public void cycleWhileExample
+    }
 
     /**
      * Необходимо написать реализацию метода с использованием while()
@@ -110,7 +110,7 @@ public class MyCycles
 
         do {
 
-            // Вызов
+
             resultCycleDoWhileExample = this.utils.utilFunc1(str);
 
             if (resultCycleDoWhileExample == true) {
@@ -122,12 +122,12 @@ public class MyCycles
 
                 System.out.println("Результат cycleDoWhileExample=false");
 
-            } // if
+            }
 
 
             countCycleDoWhile++;
 
         } while (countCycleDoWhile < expectedCycleDoWhile);
 
-    } // public void cycleDoWhileExample(int from, int to, String str)
+    }
 }
